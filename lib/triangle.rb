@@ -8,7 +8,7 @@ class Triangle
 
   def kind
     if @a = @b = @c then
-      @type = 
+      @type =
 
 
   end
