@@ -9,8 +9,14 @@ class Triangle
   end
 
   def kind
-    # if @a = @b = @c then
-    #   @type =
+    if @a == @b && @a == @c && @b == @c
+      :equilateral
+    elsif @a != @b && @a != @c && @b != @c
+      :scalene
+    else
+      :isosceles
+    end
+
 
 
   end
